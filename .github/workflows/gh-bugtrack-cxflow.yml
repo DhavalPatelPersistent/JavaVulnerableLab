@@ -108,8 +108,8 @@ jobs:
                   --repo-name=${{ github.event.repository.name }}
                   --merge-id=${{ github.event.number }}
                   --namespace=${{ github.repository_owner }}
-                  --cx-flow.filter-state=${{ steps.myvars.outputs.state }}
-                  --cx-flow.filter-severity=${{ steps.myvars.outputs.severity }}
+                  --cx-flow.filter-state
+                  --cx-flow.filter-severity
     #              --sca.filter-severity=${{ steps.myvars.outputs.severity }}
     #              --cx-flow.filter-status=${{ steps.myvars.outputs.status }}
     #              --sca.filter-score=9.0
