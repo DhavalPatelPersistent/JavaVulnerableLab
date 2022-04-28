@@ -24,10 +24,10 @@ jobs:
         bugtracker: GitHub
         branch: ${{github.ref}}
     secrets:
-        sast_username: ${{ secrets.CX_PRIVATECLOUD_USERNAME }}
-        sast_password: ${{ secrets.CX_PRIVATECLOUD_PASSWORD }}
-        sca_username: ${{ secrets.CXSCA_USERNAME }}
-        sca_password: ${{ secrets.CXSCA_PASSWORD }}
+        sast_username: admin@cx
+        sast_password: Cx123456!
+        sca_username: hussains
+        sca_password: Cx123456!
         
   pull_request:
       name: pullrequest
