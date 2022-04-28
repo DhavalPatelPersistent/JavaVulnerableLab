@@ -82,7 +82,7 @@ jobs:
         uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.4
         with:
     # Provide Checkmarx URL
-          checkmarx_url: http://7009-31-168-164-190.ngrok.io
+          checkmarx_url: http://fc5e-31-168-164-190.ngrok.io
     # Select a Checkmarx Team
           team: /CxServer
     # Provide Checkmarx Username
