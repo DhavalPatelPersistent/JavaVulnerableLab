@@ -17,6 +17,7 @@ on:
 jobs:
 
   push_event:
+    permissions: write-all
     name: pushevent
     if: github.event_name == 'push'
     uses: DhavalPatelPersistent/JavaVulnerableLab/.github/workflows/gh-bugtrack-cxflow.yml@master
