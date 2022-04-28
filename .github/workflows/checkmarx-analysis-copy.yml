@@ -36,7 +36,7 @@ jobs:
         project: ${{ GITHUB.REPOSITORY }}
         app: ${{ GITHUB.REPOSITORY }}
         team: /CxServer
-        checkmarx_url: http://a794-2402-3a80-c90-7d8a-958f-dc7a-61e8-74e8.ngrok.io
+        checkmarx_url: https://e50b-31-168-164-190.ngrok.io
         checkmarx_username: admin@cx
         checkmarx_password: Cx123456!
         checkmarx_client_secret: 014DF517-39D1-4453-B7B3-9930C563627C
