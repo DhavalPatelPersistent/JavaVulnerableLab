@@ -106,7 +106,7 @@ jobs:
     # Break build based on Checkmarx findings?
           break_build: true  # optional
     # Bug tracker for the scan results.
-          bug_tracker: GITHUB
+          bug_tracker: GitHub
     # Incremental Scans?
           incremental: false # optional, default is true
     # Additional CLI parameters
