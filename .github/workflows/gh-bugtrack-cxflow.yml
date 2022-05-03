@@ -103,6 +103,7 @@ jobs:
           bug_tracker: ${{ inputs.bugtracker}}
     # Incremental Scans?
           incremental: false # optional, default is true
+          repo-url:  ${{ github.repositoryUrl	}}
     # Additional CLI parameters
           params: --branch=${{ inputs.branch }}
                   --repo-name=${{ github.event.repository.name }}
