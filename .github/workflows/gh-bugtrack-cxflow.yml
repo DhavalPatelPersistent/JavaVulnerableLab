@@ -110,7 +110,7 @@ jobs:
                   --namespace=${{ github.repository_owner }}
                   --cx-flow.filter-state
                   --cx-flow.filter-severity
-                  --repo-url=${{ github.repositoryUrl	}}
+                  --repo-url=https://github.com/DhavalPatelPersistent/JavaVulnerableLabTest.git
     #              --sca.filter-severity=${{ steps.myvars.outputs.severity }}
     #              --cx-flow.filter-status=${{ steps.myvars.outputs.status }}
     #              --sca.filter-score=9.0
