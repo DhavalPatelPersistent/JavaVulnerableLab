@@ -103,7 +103,6 @@ jobs:
           bug_tracker: ${{ inputs.bugtracker}}
     # Incremental Scans?
           incremental: false # optional, default is true
-          repo-url:  ${{ github.repositoryUrl	}}
     # Additional CLI parameters
           params: --branch=${{ inputs.branch }}
                   --repo-name=${{ github.event.repository.name }}
@@ -111,6 +110,7 @@ jobs:
                   --namespace=${{ github.repository_owner }}
                   --cx-flow.filter-state
                   --cx-flow.filter-severity
+                  --repo-url=${{ github.repositoryUrl	}}
     #              --sca.filter-severity=${{ steps.myvars.outputs.severity }}
     #              --cx-flow.filter-status=${{ steps.myvars.outputs.status }}
     #              --sca.filter-score=9.0
